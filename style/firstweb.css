@@ -81,3 +81,49 @@ nav button:hover{
     background-color: rgba(0, 0, 0, 0.833);
 }
 /* banner-section end */
+
+
+/* about-web-dev-section start */
+.about-web-dev-section{
+    margin-top: 70px;
+}
+
+.about-web-dev-container{
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: rgba(13, 19, 33, 0.02);
+}
+
+.about-web-dev-container h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.about-web-dev-container > p{
+    text-align: center;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.about-web-dev-item-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.about-web-dev-item-1 p{
+    color: gray;
+    margin: 15px 0;
+}
+
+.about-web-dev-item-1 img{
+    height: 300px;
+}
+
+.learn-btn{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+/* about-web-dev-section end */
