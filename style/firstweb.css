@@ -164,7 +164,7 @@ nav button:hover{
     padding: 15px 15px;
     border-radius: 15px;
     margin-top: 40px;
-    box-shadow: 1px 1px 3px 1px gray;
+    box-shadow: 1px 1px 3px 1px rgba(128, 128, 128, 0.406);
 }
 
 .my-inspiration-container-vedio iframe{
