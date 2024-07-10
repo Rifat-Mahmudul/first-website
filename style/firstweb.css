@@ -287,3 +287,70 @@ nav button:hover{
     font-size: 20px;
 }
 /* my-next-target-section end */
+
+/* support-section start */
+.support-section{
+    margin-top: 55px;
+}
+
+.support-section-container{
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 300px;
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.543);
+    background-blend-mode: overlay;
+    color: white;
+    border-radius: 15px;
+}
+
+.support-section-container-text{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-section-container-text h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.support-section-container-text p{
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 40px;
+}
+
+.support-section-container-text-1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.support-section-container-text-1 input{
+    width: 350px;
+    height: 40px;
+    padding: 10px 10px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.support-section-container-text-1 button{
+    height: 40px;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.support-section-container-text-1 button:hover{
+    background-color: rgba(128, 128, 128, 0.936);
+}
+/* support-section end */
